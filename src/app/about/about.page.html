@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>About</ion-title>
+    <ion-button (click)="NavigateToHome()"> home </ion-button>
+     <ion-button (click)="NavigateToSecond()"> second </ion-button>
+
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content   >
+
+<ion-card >
+ <ion-card-header class="lyCardHeader">contact </ion-card-header>
+<ion-card-content padding >
+<p>name : <strong> {{contact.nom}}  </strong></p>
+
+<p>prenom : <strong> {{contact.prenom}}  </strong></p>
+<img src="{{contact.photo}}">
+</ion-card-content>>
+</ion-card>
+
+
+
+  
+</ion-content>
